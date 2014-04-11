@@ -18,12 +18,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:id="@+id/textView" android:textSize="24dp"/>
+            android:id="@+id/aramaText" android:textSize="24dp"/>
     <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Bilgileri Getir"
-            android:id="@+id/button"/>
+            android:id="@+id/buttonAra"/>
     <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
@@ -37,7 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:id="@+id/textView4"/>
+                android:id="@+id/textIsim"/>
         <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:id="@+id/textView6"/>
+                android:id="@+id/textOgrenciNo"/>
         <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -58,12 +58,12 @@
                 android:layout_height="wrap_content"
                 android:inputType="date"
                 android:ems="10"
-                android:id="@+id/editText"/>
+                android:id="@+id/textDogumTarihi"/>
         <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Yeni Öğrenci Kaydet"
-                android:id="@+id/button2"/>
+                android:id="@+id/buttonKaydet"/>
     </LinearLayout>
 </LinearLayout>
 
